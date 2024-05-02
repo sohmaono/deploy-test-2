@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIR_HOSTING_2_1CB80 }}
           channelId: live
           projectId: fir-hosting-2-1cb80
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
